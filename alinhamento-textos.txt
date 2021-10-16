@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <title>Bootstrap - Alinhamento de textos</title>
+  </head>
+  <body style="margin-bottom: 200px;padding: 16px;">
+
+   <!-- Parágrafo justificado -->
+   <p class="text-justify">Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;Wake-up;</p>
+
+   <br>
+   <br>
+
+   <!-- 
+        Alinhamento responsivo - class text-<tela>-alinhamento>
+        tela: sm, md, lg, xl, alinhamento: left, center, right -->
+
+        <p class="text-sm-center">tela &gt;= 576px</p><!--Small-->
+        <p class="text-md-center">tela &gt;= 768px</p><!--Medium-->
+        <p class="text-lg-center">tela &gt;= 992px</p><!--Large-->
+        <p class="text-xl-center">tela &gt;= 1200px</p><!--Extra Large-->
+
+        <br>
+        <br>
+
+        <!-- Elementos Block para Inline -->
+        <h1 class=" bg-success d-inline">Wake-up</h1>
+        <p class="d-inline">Wake-upWake-upWake-upWake-upWake-upWake-upWake-upWake-upWake-upWake-upWake-up</p>
+
+        <br>
+        <br>
+
+        <!-- Elemento Inline para Block-->
+        <span class="d-block">Wake-up</span>
+
+        <span class="d-block-block">Wake-up</span>
+
+        <br>
+        <br>
+
+        <!-- Elemento Inline-Block-->
+        <h3 class="bg-success d-inline-block">Wake-up</h3>
+
+           <h3 class="bg-success d-inline-block">Wake-up Wake-up</h3>
+
